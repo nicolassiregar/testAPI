@@ -19,16 +19,6 @@
   },
   {
     "ContainingType": "TestAPI.Controllers.ToDoController",
-    "Method": "GetSecureData",
-    "RelativePath": "data",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "TestAPI.Controllers.ToDoController",
     "Method": "Login",
     "RelativePath": "login",
     "HttpMethod": "POST",
@@ -41,6 +31,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestAPI.Controllers.ToDoController",
+    "Method": "stock",
+    "RelativePath": "stock",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

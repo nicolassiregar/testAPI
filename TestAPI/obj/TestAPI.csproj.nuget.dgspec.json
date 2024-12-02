@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nico\\source\\repos\\TestAPI\\TestAPI\\TestAPI.csproj": {}
+    "C:\\Users\\Nico\\source\\repos\\EDI\\testAPI\\TestAPI\\TestAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nico\\source\\repos\\TestAPI\\TestAPI\\TestAPI.csproj": {
+    "C:\\Users\\Nico\\source\\repos\\EDI\\testAPI\\TestAPI\\TestAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nico\\source\\repos\\TestAPI\\TestAPI\\TestAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Nico\\source\\repos\\EDI\\testAPI\\TestAPI\\TestAPI.csproj",
         "projectName": "TestAPI",
-        "projectPath": "C:\\Users\\Nico\\source\\repos\\TestAPI\\TestAPI\\TestAPI.csproj",
+        "projectPath": "C:\\Users\\Nico\\source\\repos\\EDI\\testAPI\\TestAPI\\TestAPI.csproj",
         "packagesPath": "C:\\Users\\Nico\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nico\\source\\repos\\TestAPI\\TestAPI\\obj\\",
+        "outputPath": "C:\\Users\\Nico\\source\\repos\\EDI\\testAPI\\TestAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nico\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,9 +46,21 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
+              "target": "Package",
+              "version": "[1.1.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

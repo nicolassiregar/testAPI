@@ -10,4 +10,10 @@
         public string Password { get; set; }
     }
 
+    public class liveStock
+    {
+        public string nama_produk { get; set; }
+        public string updateStock { get; set; }
+    }
+
 }

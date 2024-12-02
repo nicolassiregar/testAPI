@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nico\\source\\repos\\EDI\\testAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8BD5E7-CD3F-49B1-A638-E6330353084F}|TestAPI\\TestAPI.csproj|c:\\users\\nico\\source\\repos\\edi\\testapi\\testapi\\repository\\testtable1repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE8BD5E7-CD3F-49B1-A638-E6330353084F}|TestAPI\\TestAPI.csproj|solutionrelative:testapi\\repository\\testtable1repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8BD5E7-CD3F-49B1-A638-E6330353084F}|TestAPI\\TestAPI.csproj|c:\\users\\nico\\source\\repos\\edi\\testapi\\testapi\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE8BD5E7-CD3F-49B1-A638-E6330353084F}|TestAPI\\TestAPI.csproj|solutionrelative:testapi\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8BD5E7-CD3F-49B1-A638-E6330353084F}|TestAPI\\TestAPI.csproj|c:\\users\\nico\\source\\repos\\edi\\testapi\\testapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE8BD5E7-CD3F-49B1-A638-E6330353084F}|TestAPI\\TestAPI.csproj|solutionrelative:testapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8BD5E7-CD3F-49B1-A638-E6330353084F}|TestAPI\\TestAPI.csproj|c:\\users\\nico\\source\\repos\\edi\\testapi\\testapi\\model\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE8BD5E7-CD3F-49B1-A638-E6330353084F}|TestAPI\\TestAPI.csproj|solutionrelative:testapi\\model\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8BD5E7-CD3F-49B1-A638-E6330353084F}|TestAPI\\TestAPI.csproj|c:\\users\\nico\\source\\repos\\edi\\testapi\\testapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FE8BD5E7-CD3F-49B1-A638-E6330353084F}|TestAPI\\TestAPI.csproj|solutionrelative:testapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8BD5E7-CD3F-49B1-A638-E6330353084F}|TestAPI\\TestAPI.csproj|c:\\users\\nico\\source\\repos\\edi\\testapi\\testapi\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE8BD5E7-CD3F-49B1-A638-E6330353084F}|TestAPI\\TestAPI.csproj|solutionrelative:testapi\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestTable1Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Nico\\source\\repos\\EDI\\testAPI\\TestAPI\\Repository\\TestTable1Repository.cs",
+              "RelativeDocumentMoniker": "TestAPI\\Repository\\TestTable1Repository.cs",
+              "ToolTip": "C:\\Users\\Nico\\source\\repos\\EDI\\testAPI\\TestAPI\\Repository\\TestTable1Repository.cs",
+              "RelativeToolTip": "TestAPI\\Repository\\TestTable1Repository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAgwCAAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T13:50:33.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nico\\source\\repos\\EDI\\testAPI\\TestAPI\\Program.cs",
+              "RelativeDocumentMoniker": "TestAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Nico\\source\\repos\\EDI\\testAPI\\TestAPI\\Program.cs",
+              "RelativeToolTip": "TestAPI\\Program.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAEgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T13:48:44.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DbConnectionFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Nico\\source\\repos\\EDI\\testAPI\\TestAPI\\DbConnectionFactory.cs",
+              "RelativeDocumentMoniker": "TestAPI\\DbConnectionFactory.cs",
+              "ToolTip": "C:\\Users\\Nico\\source\\repos\\EDI\\testAPI\\TestAPI\\DbConnectionFactory.cs",
+              "RelativeToolTip": "TestAPI\\DbConnectionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T13:41:19.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Nico\\source\\repos\\EDI\\testAPI\\TestAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "TestAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Nico\\source\\repos\\EDI\\testAPI\\TestAPI\\appsettings.json",
+              "RelativeToolTip": "TestAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-02T13:39:13.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ToDo.cs",
+              "DocumentMoniker": "C:\\Users\\Nico\\source\\repos\\EDI\\testAPI\\TestAPI\\Model\\ToDo.cs",
+              "RelativeDocumentMoniker": "TestAPI\\Model\\ToDo.cs",
+              "ToolTip": "C:\\Users\\Nico\\source\\repos\\EDI\\testAPI\\TestAPI\\Model\\ToDo.cs",
+              "RelativeToolTip": "TestAPI\\Model\\ToDo.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA6wAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T13:38:13.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ToDoController.cs",
+              "DocumentMoniker": "C:\\Users\\Nico\\source\\repos\\EDI\\testAPI\\TestAPI\\Controllers\\ToDoController.cs",
+              "RelativeDocumentMoniker": "TestAPI\\Controllers\\ToDoController.cs",
+              "ToolTip": "C:\\Users\\Nico\\source\\repos\\EDI\\testAPI\\TestAPI\\Controllers\\ToDoController.cs",
+              "RelativeToolTip": "TestAPI\\Controllers\\ToDoController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwDcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T12:59:43.814Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

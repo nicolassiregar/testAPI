@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
@@ -67,6 +68,9 @@ builder.Services.AddSwaggerGen(options =>
 
     options.AddSecurityRequirement(securityRequirement);
 });
+
+builder.Services.AddSingleton(new DbConnectionFactory(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddScoped<TestAPI.Repository.TestTable1Repository>();
 
 var app = builder.Build();
 

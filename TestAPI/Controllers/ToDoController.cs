@@ -7,6 +7,7 @@ using System.Text;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.Extensions.Configuration;
+using TestAPI.Repository;
 
 namespace TestAPI.Controllers
 {
@@ -15,10 +16,12 @@ namespace TestAPI.Controllers
     public class ToDoController : ControllerBase
     {
         private readonly IConfiguration _configuration;
+        private readonly TestTable1Repository _repository;
 
-        public ToDoController(IConfiguration configuration)
+        public ToDoController(IConfiguration configuration, TestTable1Repository repository)
         {
             _configuration = configuration;
+            _repository = repository;
         }
 
 
@@ -49,11 +52,12 @@ namespace TestAPI.Controllers
             return Unauthorized();
         }
 
-        [HttpGet("data")]
+        [HttpGet("stock")]
         [Authorize]
-        public IActionResult GetSecureData()
+        public IActionResult stock()
         {
-            return Ok(new { Message = "This is protected data." });
+            var data = _repository.checkStock();
+            return Ok(new { data = data });
         }
     }
 }

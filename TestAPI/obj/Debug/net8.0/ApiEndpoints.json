@@ -19,6 +19,32 @@
   },
   {
     "ContainingType": "TestAPI.Controllers.ToDoController",
+    "Method": "InsertPos",
+    "RelativePath": "InsertPos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "param",
+        "Type": "System.Collections.Generic.List\u00601[[TestAPI.Model.penjualanParam, TestAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestAPI.Controllers.ToDoController",
+    "Method": "listProduk",
+    "RelativePath": "listProduk",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestAPI.Controllers.ToDoController",
     "Method": "Login",
     "RelativePath": "login",
     "HttpMethod": "POST",
@@ -35,12 +61,38 @@
   },
   {
     "ContainingType": "TestAPI.Controllers.ToDoController",
+    "Method": "reportPos",
+    "RelativePath": "reportPos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestAPI.Controllers.ToDoController",
     "Method": "stock",
     "RelativePath": "stock",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestAPI.Controllers.ToDoController",
+    "Method": "UpdateItem",
+    "RelativePath": "UpdateItem",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "param",
+        "Type": "TestAPI.Model.produkModel",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

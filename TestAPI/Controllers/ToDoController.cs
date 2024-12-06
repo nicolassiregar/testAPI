@@ -52,12 +52,49 @@ namespace TestAPI.Controllers
             return Unauthorized();
         }
 
+        [HttpGet("listProduk")]
+        [Authorize]
+        public IActionResult listProduk()
+        {
+            var data = _repository.produkRepository();
+            return Ok(new { data = data });
+        }
+
         [HttpGet("stock")]
         [Authorize]
         public IActionResult stock()
         {
             var data = _repository.checkStock();
             return Ok(new { data = data });
+        }
+
+        [HttpGet("reportPos")]
+        [Authorize]
+        public IActionResult reportPos()
+        {
+            var data = _repository.reportPos();
+            return Ok(new { data = data });
+        }
+
+        [HttpPost("InsertPos")]
+        [Authorize]
+        public IActionResult InsertPos(List<penjualanParam> param)
+        {
+            DateTimeOffset now = DateTimeOffset.UtcNow;
+            long unixTime = now.ToUnixTimeSeconds();
+            string unixTimeString = unixTime.ToString();
+
+
+            _repository.insertPos(param, unixTimeString);
+            return Ok(new { status = "success" });
+        }
+
+        [HttpPost("UpdateItem")]
+        [Authorize]
+        public IActionResult UpdateItem(produkModel param)
+        {
+            var response = _repository.updateItem(param);
+            return Ok(new { status = "success" });
         }
     }
 }
